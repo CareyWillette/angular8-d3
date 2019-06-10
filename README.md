@@ -1,4 +1,4 @@
-# D3Map
+# Angular 8 with D3 boilerplate
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
 
