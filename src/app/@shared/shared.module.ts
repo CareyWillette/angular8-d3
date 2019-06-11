@@ -8,10 +8,10 @@ const SHARED_MODULES = [
 
 @NgModule({
   imports: [
-    ...SHARED_MODULES
+    SHARED_MODULES
   ],
   exports: [
-    ...SHARED_MODULES
+    SHARED_MODULES
   ]
 })
 

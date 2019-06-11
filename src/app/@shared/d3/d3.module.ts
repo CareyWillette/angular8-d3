@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BarChartComponent } from './bar-chart/bar-chart.component';
+import { GeoJsonComponent } from './geo-json/geo-json.component';
 
 const SHARED_COMPONENTS = [
-  BarChartComponent
+  BarChartComponent,
+  GeoJsonComponent,
 ]
 
 @NgModule({

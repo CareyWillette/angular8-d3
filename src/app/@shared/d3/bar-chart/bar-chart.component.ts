@@ -21,9 +21,13 @@ export class BarChartComponent implements OnChanges {
   constructor() { }
 
   ngOnChanges(): void {
-    if (!this.data) { return; }
+    if (!this.data) {
+      return;
+    }
+    else {
+      this.createChart();
+    }
 
-    this.createChart();
   }
 
   onResize() {
